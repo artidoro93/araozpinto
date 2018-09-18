@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "811160209346",
+    "firebase_url": "https://radio-moda-nortena.firebaseio.com",
+    "project_id": "radio-moda-nortena",
+    "storage_bucket": "radio-moda-nortena.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811160209346:android:2c8106678a701ac5",
+        "android_client_info": {
+          "package_name": "artireyes.araozpinto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811160209346-r1ia2vnnucihfm4r2ddvjikqad8atnfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "artireyes.araozpinto",
+            "certificate_hash": "5a1c5ea0a4708e182949ed6fbefa3841927ca240"
+          }
+        },
+        {
+          "client_id": "811160209346-1qio53g37vcut2rqng1aj2mla2s65gov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMGt-xynJ2kBCVPfvgC-QVovkI-IbRrzk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811160209346-1qio53g37vcut2rqng1aj2mla2s65gov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
