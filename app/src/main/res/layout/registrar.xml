@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_marginTop="50dp"
     tools:context=".actividades.registrar">
 
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/emailregistro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="correo"
@@ -24,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
-            android:id="@+id/pass"
+            android:id="@+id/passregistro"
             android:hint="contraseña"
             android:inputType="textPassword"
             android:layout_width="match_parent"
@@ -33,16 +35,17 @@
     </android.support.design.widget.TextInputLayout>
 
     <LinearLayout
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/registrar"
+            android:id="@+id/btnregistro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="registrar" />
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
